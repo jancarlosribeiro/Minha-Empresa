@@ -1,2 +1,2 @@
 # Minha-Empresa
-Projeto Desenvolvido na Faculdade Flamingo - Aulas HTML - CS
+Projeto Desenvolvido na Faculdade Flamingo - Aulas HTML - CSS
