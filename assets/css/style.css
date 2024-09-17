@@ -1,31 +1,52 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
-.cabecalho{
+
+.cabecalho {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #333;
+    color: #fff;
     padding: 30px 60px;
 }
+
 .cabecalho ul {
-    display:flex;/* deixa o filho um do lado do outro */
-    gap: 20px 60px;
-    
-}
-.cabecalho h1{
     display: flex;
     gap: 20px;
-
 }
-.cabecalho ul li a{
+
+.cabecalho ul li a {
     color: #fff;
 }
 
-.main{
+.main {
     padding: 30px 60px;
+}
+.newsletter form input {
+    padding: 15px;
+}
+.btn {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #444;
+}
+.rodape {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }

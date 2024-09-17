@@ -4,55 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- tag item para adicionar icon na barra do navegador --> <!-- shift + alt + a comentario -->
-    <link rel="shortcut icon" href="./assets/inclusion.png" type="image/x-icon">
-    <!-- tag para escrever o nome do desenvolvedor -->
+    <!-- Tag para descrever o nome do desenvolvedor -->
     <meta name="author" content="Jan Carlos">
+    <!-- Tag link para adicionar icon na barra do navegador -->
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <title>Minha Empresa</title>
 </head>
 
 <body>
-    <div class="cabecalho">
-       <h1>Logo</h1>
-        <ul><!-- shift+ alt copia  -->
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./pages/historia.html">Historia</a>
-            </li>
-            <li>
-                <a href="./pages/contato.html">Contato</a>
-            </li>
-        </ul>
-    </div>
+    <header class="cabecalho">
+        <h1>Logo</h1>
+<nav>
+    <ul>
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="./pages/historia.html">História</a>
+        </li>
+        <li>
+            <a href="./pages/contato.html">Contato</a>
+        </li>
+    </ul>
+</nav>
+    </header>
+    <main class="main">
+        <div class="pai-dos-lados">
+            <div class="lado-esquerdo">
+                <h1>Minha Empresa</h1>
+                <!-- tag img para adicionar uma imagem -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ex explicabo praesentium sed error vitae aut, voluptas adipisci nisi. Voluptates voluptas earum veritatis mollitia distinctio cumque, quaerat rerum aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum aliquam blanditiis alias delectus, rem amet ad doloribus tempore possimus aut et porro, vero nam asperiores, neque facere. Ratione, praesentium.</p>
+                <!-- Tag button para criar um botão -->
+                <button class="btn">Conheça nossa história</button>
+            </div>
+            <div class="lado-direito">
+                <img src="./assets/img/empresa.jpg" alt="Funcionário no escritório">
+            </div>
+        </div>
 
-    <div class="main">
-        <h1 style="color: rgb(175, 58, 28);text-align: center;">Minha Empresa</h1>
-        <!-- tag img para imagem -->
-        <img src="./assets/img/empresa.png" alt="imagem ilustrativa de uma reunião">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, harum fugiat porro tenetur eligendi vel
-            adipisci rerum voluptate, consequatur aut distinctio assumenda totam eum. Illum quae unde neque voluptates esse
-            nihil obcaecati quam ut hic reprehenderit. Praesentium quidem minus corrupti, sapiente soluta totam. Sequi unde
-            totam illum harum odit officia quas minima dignissimos vel ex labore, at facilis laboriosam doloremque, omnis
-            ducimus iste possimus itaque ut corrupti. Rerum blanditiis aperiam quas eius? Possimus, hic magni? Eveniet
-            aliquam accusamus voluptate recusandae suscipit ea ut labore tempore non, repellat doloremque dolorum corrupti.
-            Quod pariatur ut, doloremque quo assumenda quae tenetur fuga quis.</p>
-        <!-- tag button para criar um botão -->
-        <button>conheça nossa historia</button>
-    
-        <h2>inscreva-se na nossa newslatter </h2>
-        <p>tenha as ultimas noticias sobre a nossa empresa - todas as segunda-feira.</p>
-        <form action="">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="digite seu nome completo" required>
-            <label for="email"> E-mail</label>
-            <input type="email" id="email" placeholder="digite seu e-mail" required>
-            <input type="submit" value="inscreva-se">
-        </form>
-        <p>Desenvolvido Por <strong>JanCarlos</strong> &copy; todos direitos resevado</p>
-    </div>
+        <div class="newsletter">
+            <div class="title">
+                <h2>Inscreva-se na nossa Newsletter</h2>
+                <p>Tenha as ultimas noticias sobre a nossa empresa - todas as segunda-feira.</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Digite seu nome completo" required>
+                <input type="email" placeholder="Digite seu E-mail" required>
+                <input class="btn" type="submit" value="Inscreva-se">
+            </form>
+        </div>
+
+
+
+
+    </main>
+    <footer class="rodape">
+     <p>Desenvolvido por <strong>Jan Carlos Ribeiro</strong> &copy; Todos direitos reservados.</p>
+    </footer> 
 </body>
 
 </html>
