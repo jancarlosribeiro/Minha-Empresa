@@ -41,3 +41,22 @@
     flex-direction: column;
     gap: 5px;
 }
+@media screen and (max-width: 780px) {
+    .newsletter form{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .pai-dos-lados{
+        
+        flex-direction:column-reverse;
+    }
+
+    .pai-dos-lados div {
+        width: 100%;
+    
+    }
+}
